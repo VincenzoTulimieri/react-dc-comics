@@ -63,7 +63,38 @@ a {
   color: #0282f9;
 }
 
+/* sidebar */
+.sidebar{
+  background-color: #0282f9;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.sidebar-element{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar-element li {
+  width: 170px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-side{
+  text-transform: uppercase;
+  width: 70%;
+  font-size: 12px;
+}
+.image-side{
+  width: 30%;
+}
+
+
 /* main */
 main {
-  background-color: black;
+  background-color: #000000;
 }
