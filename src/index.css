@@ -27,15 +27,18 @@ a {
   margin: 0 auto;
 }
 
+/* debug */
+.element {
+  color: #ffffff;
+  padding: 55px;
+}
 
 
 /* header */
 #intestazione {
-  width: 1440px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding-top: 23px;
+  padding: 23px;
 }
 
 .image {
@@ -58,4 +61,9 @@ a {
 .header-menu li a:hover {
   cursor: pointer;
   color: #0282f9;
+}
+
+/* main */
+main {
+  background-color: black;
 }

@@ -1,5 +1,14 @@
-export default function Main(){
+// importazione file
+
+// dichiarazione variabile
+const contentElement = '--> Content goes here <--'
+
+export default function Main() {
     return <main>
-        <h2>sono il main</h2>
+        <div className="container">
+            <div className="element">
+                {contentElement}
+            </div>
+        </div>
     </main>
 }
