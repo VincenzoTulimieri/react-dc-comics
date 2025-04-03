@@ -1,9 +1,61 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  all: unset;
+}
+
+/* container */
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+/* header */
+#intestazione {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 23px;
+}
+
+.image {
+  width: 85px;
+  height: 85px;
+
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.header-menu li {
+  text-transform: uppercase;
+  color: #464646;
+}
+
+.header-menu li a:hover {
+  cursor: pointer;
+  color: #0282f9;
+}
