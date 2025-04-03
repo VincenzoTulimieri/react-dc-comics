@@ -83,6 +83,9 @@ a {
   align-items: center;
   gap: 20px;
 }
+.sidebar-element li:hover{
+  cursor: pointer;
+}
 
 .text-side{
   text-transform: uppercase;
@@ -97,4 +100,18 @@ a {
 /* main */
 main {
   background-color: #000000;
+}
+
+
+/* footer */
+footer{
+  height: 100vh;
+  background-image: url(../public/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container-img{
+  width: 300px;
+  height: 300px;
 }
