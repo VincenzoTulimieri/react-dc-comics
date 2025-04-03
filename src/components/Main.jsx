@@ -7,7 +7,7 @@ export default function Main() {
     return <main>
         <div className="container">
             <div className="element">
-                {contentElement}
+                <strong>{contentElement}</strong>
             </div>
         </div>
     </main>
