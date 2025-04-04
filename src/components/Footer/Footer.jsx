@@ -20,7 +20,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="container-img">
-                <img src="../public/img/dc-logo-bg.png" alt="" />
+                <img src="../img/dc-logo-bg.png" alt="" />
             </div>
         </div>
         <div className="footer-end">
