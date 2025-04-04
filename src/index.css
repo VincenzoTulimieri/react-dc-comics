@@ -5,7 +5,9 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: "Open Sans", sans-serif;
+  
 }
 
 img {
@@ -69,6 +71,9 @@ a {
   padding: 50px;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 2;
+  
 }
 .sidebar-element{
   width: 1200px;
@@ -106,12 +111,35 @@ main {
 /* footer */
 footer{
   height: 100vh;
+  padding: 50px;
+  position: relative;
   background-image: url(../public/img/footer-bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .container-img{
-  width: 300px;
-  height: 300px;
+  position: absolute;
+  top: -5%;
+  right: 20%;
 }
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-flex div h3{
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-ul{
+  color: #959595;
+  margin-bottom: 10px;
+}
+
+
+
