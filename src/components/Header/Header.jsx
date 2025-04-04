@@ -6,8 +6,8 @@ export default function Header() {
     const arrayLink =['characters','comics','movies','tv','games','collectibles','videos','fans','news','shop']
     return (
     <header id="intestazione" className="container">
-        <Logo />
-        <HeaderMenu  link = {arrayLink} />
+        <a href="index.html"><Logo /></a>
+        <HeaderMenu link = {arrayLink} />
     </header>
     )
 }

@@ -64,6 +64,9 @@ a {
   cursor: pointer;
   color: #0282f9;
 }
+#intestazione a:hover{
+  cursor: pointer;
+}
 
 /* sidebar */
 .sidebar{
@@ -109,28 +112,29 @@ main {
 
 
 /* footer */
-footer{
-  height: 100vh;
+.footer-container-ul{
+  display: flex;
   padding: 50px;
   position: relative;
-  background-image: url(../img/footer-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  gap: 20px;
 }
 
 .container-img{
   position: absolute;
-  top: -5%;
-  right: 20%;
+  top: -90px;
+  right: 100px;
 }
-.footer-flex{
+.footer-container{
   display: flex;
   justify-content: space-between;
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   
 }
 
-.footer-flex div h3{
+.footer-container div h3{
   color: #ffffff;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -139,7 +143,17 @@ footer{
 .footer-ul{
   color: #959595;
   margin-bottom: 10px;
+  line-height: 30px;
+}
+.footer-ul a:hover{
+  cursor: pointer;
 }
 
+.footer-end{
+  height: 150px;
+  background-color: #303030;
+  position: relative;
+  z-index: 1;
+}
 
 
