@@ -7,7 +7,7 @@
 body {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
-  
+
 }
 
 img {
@@ -64,26 +64,29 @@ a {
   cursor: pointer;
   color: #0282f9;
 }
-#intestazione a:hover{
+
+#intestazione a:hover {
   cursor: pointer;
 }
 
 /* sidebar */
-.sidebar{
+.sidebar {
   background-color: #0282f9;
   padding: 50px;
   display: flex;
   justify-content: center;
   position: relative;
   z-index: 2;
-  
+
 }
-.sidebar-element{
+
+.sidebar-element {
   width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
+
 .sidebar-element li {
   width: 170px;
   color: #ffffff;
@@ -91,16 +94,18 @@ a {
   align-items: center;
   gap: 20px;
 }
-.sidebar-element li:hover{
+
+.sidebar-element li:hover {
   cursor: pointer;
 }
 
-.text-side{
+.text-side {
   text-transform: uppercase;
   width: 70%;
   font-size: 12px;
 }
-.image-side{
+
+.image-side {
   width: 30%;
 }
 
@@ -111,49 +116,89 @@ main {
 }
 
 
-/* footer */
-.footer-container-ul{
+/* footer 1 */
+.footer-container-ul {
   display: flex;
-  padding: 50px;
+  padding-top: 50px;
   position: relative;
   gap: 20px;
 }
 
-.container-img{
+.container-img {
   position: absolute;
   top: -90px;
   right: 100px;
 }
-.footer-container{
+
+.footer-container {
   display: flex;
   justify-content: space-between;
   background-image: url(../img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+
 }
 
-.footer-container div h3{
+.footer-container div h3 {
   color: #ffffff;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 
-.footer-ul{
+.footer-ul {
   color: #959595;
   margin-bottom: 10px;
   line-height: 30px;
 }
-.footer-ul a:hover{
+
+.footer-ul a:hover {
   cursor: pointer;
 }
 
-.footer-end{
-  height: 150px;
+/* footer 2 */
+
+.footer-end {
   background-color: #303030;
   position: relative;
   z-index: 1;
+  padding: 30px;
 }
 
+.footer-end-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.btn {
+  all: unset;
+  border: 3px solid #0282f9;
+  padding: 17px 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-text {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-weight: bold;
+}
+
+.social img {
+  width: 35px;
+  height: 35px;
+}
+.social a:hover{
+  cursor: pointer;
+}

@@ -1,3 +1,7 @@
+// importazione componenti
+import Button from "./Button";
+import Social from "./Social";
+
 export default function Footer(props) {
     return (
         <footer>
@@ -54,13 +58,9 @@ export default function Footer(props) {
 
             </div>
             <div className="footer-end">
-                <div className="container">
-                    <div className="btn-container">
-                        <button></button>
-                    </div>
-                    <div className="social">
-
-                    </div>
+                <div className="container footer-end-flex">
+                    <Button />
+                    <Social />
                 </div>
             </div>
         </footer>
