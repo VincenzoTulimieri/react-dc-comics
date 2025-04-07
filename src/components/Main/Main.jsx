@@ -1,7 +1,7 @@
 // importazione file
-
 import Button from "./ButtonComics"
 import Card from "./Card"
+import CurrentSeries from "./CurrentSeries"
 
 // dichiarazione variabile
 
@@ -16,6 +16,7 @@ export default function Main(props) {
                     <Card comics={comics} />
                 </div>
                 <Button />
+                <CurrentSeries />
             </div>
         </main>
     )
