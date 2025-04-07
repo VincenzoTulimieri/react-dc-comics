@@ -6,6 +6,8 @@ import Main from "./components/Main/Main"
 
 
 function App() {
+  const arrayLink = ['characters', 'comics', 'movies', 'tv', 'games', 'collectibles', 'videos', 'fans', 'news', 'shop']
+
   const arrayFooter = [
     "Characters",
     "Comics",
@@ -31,13 +33,13 @@ function App() {
     "DC Kids",
     "DC Universe",
     "DC Power Visa"
-];
+  ];
   return (
     <>
-      <Header />
+      <Header link={arrayLink} />
       <Main />
       <ElementUser />
-      <Footer  link= {arrayFooter}/>
+      <Footer link={arrayFooter} />
     </>
   )
 }
