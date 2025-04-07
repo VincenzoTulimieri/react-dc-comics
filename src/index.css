@@ -81,13 +81,15 @@ main {
   flex-wrap: wrap;
 }
 .col{
-  width: calc((100% - 20px) / 6);
+  width: calc((100% - 100px) / 6);
 }
 
 .card-img{
-  height: 190px;
   width: 190px;
   margin-bottom: 10px;
+}
+article:hover{
+  cursor: pointer;
 }
 
 .card-text{
