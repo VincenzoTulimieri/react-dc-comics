@@ -4,7 +4,7 @@ export default function Card(props) {
     return (
         <>
         {comics.map((comic, index) => (
-            <div className="col">
+            <div className="col" key={comic.id}>
                 <article>
                     <div className="card-img">
                         <a href="#"><img src={comic.thumb} alt={comic.title} /></a>
