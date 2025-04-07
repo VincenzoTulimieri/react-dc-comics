@@ -69,6 +69,11 @@ a {
   cursor: pointer;
 }
 
+/* main */
+main {
+  background-color: #000000;
+}
+
 /* sidebar */
 .sidebar {
   background-color: #0282f9;
@@ -110,10 +115,7 @@ a {
 }
 
 
-/* main */
-main {
-  background-color: #000000;
-}
+
 
 
 /* footer 1 */

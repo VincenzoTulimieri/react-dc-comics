@@ -3,7 +3,7 @@ import ElementUser from "./components/Element"
 import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import Main from "./components/Main/Main"
-
+import comics from "./data/comics"
 
 function App() {
   const arrayLink = ['characters', 'comics', 'movies', 'tv', 'games', 'collectibles', 'videos', 'fans', 'news', 'shop']
@@ -15,7 +15,7 @@ function App() {
 
 
   const arraySite = ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"];
-  
+
   return (
     <>
       <Header link={arrayLink} />
