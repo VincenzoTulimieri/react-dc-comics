@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Header link={arrayLink} />
-      <Main />
+      <Main comics= {comics}/>
       <ElementUser />
       <Footer linkDccomics={arrayDccomics}  linkShop={arrayShop} linkDc={arrayDc} linkSite={arraySite}/>
     </>

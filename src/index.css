@@ -29,12 +29,6 @@ a {
   margin: 0 auto;
 }
 
-/* debug */
-.element {
-  color: #ffffff;
-  padding: 55px;
-}
-
 
 /* header */
 #intestazione {
@@ -71,8 +65,44 @@ a {
 
 /* main */
 main {
-  background-color: #000000;
+  background-color: #1c1c1c;
 }
+.jumbotron{
+  height: 45vh;
+  background-image: url(../public/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row{
+  padding: 55px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.col{
+  width: calc((100%-30px)/6);
+}
+
+.card-img{
+  height: 190px;
+  width: 190px;
+  margin-bottom: 10px;
+}
+
+.card-text{
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
 
 /* sidebar */
 .sidebar {
@@ -133,11 +163,12 @@ main {
 }
 
 .footer-container {
+  height: 30vh;
   display: flex;
   justify-content: space-between;
   background-image: url(../img/footer-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
 
 }
@@ -156,6 +187,7 @@ main {
 
 .footer-ul a:hover {
   cursor: pointer;
+  color: #0282f9;
 }
 
 /* footer 2 */

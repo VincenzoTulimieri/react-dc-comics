@@ -1,16 +1,20 @@
 // importazione file
 
-// dichiarazione variabile
-const contentElement = '--> Content goes here <--'
+import Card from "./Card"
 
-export default function Main() {
+// dichiarazione variabile
+
+export default function Main(props) {
+
+    const comics = props.comics
     return (
-    <main>
-        <div className="container">
-            <div className="element">
-                <strong>{contentElement}</strong>
+        <main>
+            <div className="jumbotron"></div>
+            <div className="container">
+                <div className="row">
+                    <Card comics={comics} />
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
     )
 }
