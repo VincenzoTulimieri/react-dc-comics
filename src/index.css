@@ -88,22 +88,18 @@ main {
   width: 190px;
   margin-bottom: 10px;
 }
+article{
+  transition: all 0.5s;
+}
 article:hover{
   cursor: pointer;
+  scale: 1.1;
 }
 
 .card-text{
   color: #ffffff;
   text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
 
 
 /* sidebar */
@@ -165,7 +161,6 @@ article:hover{
 }
 
 .footer-container {
-  height: 30vh;
   display: flex;
   justify-content: space-between;
   background-image: url(../img/footer-bg.jpg);
@@ -217,6 +212,7 @@ article:hover{
 
 .btn:hover {
   cursor: pointer;
+  filter: brightness(1.4);
 }
 
 .social {

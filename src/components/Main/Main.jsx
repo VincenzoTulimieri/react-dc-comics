@@ -1,5 +1,6 @@
 // importazione file
 
+import Button from "./ButtonComics"
 import Card from "./Card"
 
 // dichiarazione variabile
@@ -14,6 +15,7 @@ export default function Main(props) {
                 <div className="row">
                     <Card comics={comics} />
                 </div>
+                <Button />
             </div>
         </main>
     )
