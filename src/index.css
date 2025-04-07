@@ -77,11 +77,11 @@ main {
 .row{
   padding: 55px;
   display: flex;
-  gap: 30px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 .col{
-  width: calc((100%-30px)/6);
+  width: calc((100% - 20px) / 6);
 }
 
 .card-img{
